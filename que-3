@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            function sum()
+			{
+                let addtion = 0;
+                let size = arguments.length;
+                for(let i=0;i<size;i++)
+				{
+                    addtion += arguments[i];
+                }
+                return addtion;
+            }
+
+            var p= sum(6,3);
+            document.write(p);
+        </script>
+    </body>
+</html>
