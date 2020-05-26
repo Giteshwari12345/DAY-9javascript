@@ -1,0 +1,12 @@
+<!DOCTYPE html>
+<html>
+    <body>
+        <script>
+            var a = (function(num){
+                return num*num;
+            })
+            (13);
+            document.write(a);
+        </script>
+    </body>
+</html>
